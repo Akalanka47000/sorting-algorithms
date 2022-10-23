@@ -7,8 +7,7 @@ def sort(arr, direction="asc"):
             condition = (arr[i] > arr[i + 1]) if direction == 'asc' else (arr[i] < arr[i + 1])
             if condition:
                 temp = arr[i]
-                arr[i] = arr[i + 1]
-                arr[i + 1] = temp
+                arr[i], arr[i + 1] = arr[i + 1], temp
                 noMoreSwaps = False
         n += 1
     return arr

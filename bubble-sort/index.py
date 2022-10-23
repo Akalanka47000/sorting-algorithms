@@ -15,4 +15,5 @@ def sort(arr, direction="asc"):
 
 
 numbers = [3, 4, 5, 6, 2, 3, 1, 98, 4, 324, 13, 2, 3]
-print(sort(numbers))
+sort(numbers)
+print("Sorted array -->", numbers)

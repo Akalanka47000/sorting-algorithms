@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class index {
+class Main {
 
     private static void bubbleSort(int[] arr, String direction) {
         boolean noMoreSwaps = false;
